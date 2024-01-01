@@ -1,0 +1,15 @@
+﻿<Window x:Class="Battle_Boats.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Battle_Boats"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1000" ResizeMode="CanResize" WindowState="Maximized" >
+    <Grid>
+        <!--Controls the content of the window. Controls which window is being displayed-->
+        <ContentControl x:Name="WindowController"/>
+    </Grid>
+
+    
+</Window>
