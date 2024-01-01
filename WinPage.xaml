@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Battle_Boats.WinPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Battle_Boats"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <!--Border to put the text and button in-->
+        <Border Margin="50" BorderThickness="5" BorderBrush="Black" CornerRadius="10">
+            <StackPanel>
+                <!--Says if the winner or the computer wins-->
+                <Label x:Name="WinnerLabel" HorizontalAlignment="Center" VerticalAlignment="Center" Width="450" Height="250" FontSize="50" FontFamily="Impact"/>
+                <!--Takes the user back to the main menu-->
+                <Button Click="ButtonClick_MainMenu" Content="Main Menu" Width="100" Height="30" FontFamily="Impact" FontSize="14"/>
+            </StackPanel>
+
+
+        </Border>
+        
+    </Grid>
+</UserControl>
